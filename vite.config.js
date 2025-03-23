@@ -3,6 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/BookList/", // 🔥 Add this line (must match your repo name)
+  base: "/book-list/", // 👈 Add this (MUST match the repository name)
 });
-
