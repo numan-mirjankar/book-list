@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Search Bar */
+input {
+  width: 50%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #2ecc71;
+  box-shadow: 0 0 8px rgba(46, 204, 113, 0.5);
+}
+
+/* Book Card */
+.book-card {
+  background: #ffffff;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.book-card h2 {
+  font-size: 1.8rem;
+  color: #34495e;
+}
+
+.book-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Buttons */
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  input {
+    width: 80%;
+  }
+  .book-card {
+    max-width: 90%;
+  }
+}
